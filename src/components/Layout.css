@@ -1,0 +1,16 @@
+﻿.top-nav {
+  background: #363537;
+  height: 32px;
+  font-family: 'Lato', Helvetica, sans-serif ;
+}
+
+.top-nav > div {
+  padding-right: 32px;
+}
+
+.top-nav a {
+  font-size: 16px;
+  color: #f3f3f3;
+  text-decoration: none;
+  margin-right: 24px;
+}

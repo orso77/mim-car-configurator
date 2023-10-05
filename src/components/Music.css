@@ -1,0 +1,15 @@
+﻿.music.bi-volume-mute {
+  animation: color 2.5s linear infinite;
+}
+
+@keyframes color {
+  0% {
+    color: rgb(255,255,255,1);
+  }
+  50% {
+    color: rgb(255,255,255,0.3);
+  }
+  /* 100% {
+    color: rgb(255,255,255,1);
+  } */
+}

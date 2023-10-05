@@ -1,0 +1,45 @@
+﻿.vehicleEquipment .card {
+  color: #fff;
+  border: none;
+  background: #000;
+}
+
+.vehicleEquipment .card .card-body {
+  background: #000;
+  text-transform: uppercase;
+}
+
+.vehicleEquipment .card-header {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  cursor: pointer;
+}
+
+.vehicleEquipment .card-header:hover {
+  color: rgb(220, 0, 0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: -webkit-linear-gradient(to right, rgba(200,0,0,0.5), rgba(109,109,109,0.5)); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, rgba(109,109,109,0.5), rgba(200,0,0,0.5)); */
+}
+
+.vehicleEquipment .card-header[aria-expanded="false"] .text-expanded {
+  display: none;
+}
+
+.vehicleEquipment .card-header[aria-expanded="true"] .text-collapsed {
+  display: none;
+}
+
+.vehicleEquipment .card-body li {
+  padding-top: 16px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+}
+
+.vehicleEquipment .collapsing {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,14 @@
+﻿.vehicleFilter .card {
+  color: #fff;
+  border: none;
+  background: #000;
+}
+
+.vehicleFilter .card .card-body {
+  background: #000;
+}
+
+.vehicleFilter .card .card-body select {
+  text-transform: uppercase;
+  font-size: 13px; 
+}

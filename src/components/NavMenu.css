@@ -1,0 +1,25 @@
+﻿@media (max-width: 992px) {
+  .navMenu a.navbar-brand img {
+    height: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navMenu a.navbar-brand img {
+    height: 72px;
+  }
+}
+
+.navMenu {
+  background: #000;
+}
+
+.navMenu a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.navMenu .nav-link{
+  color: #fff;
+}
